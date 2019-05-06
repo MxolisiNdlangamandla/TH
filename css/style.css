@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    background-image: url(../images/bigpic.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    padding-top: 10%;
+
+}
+
+.heading {
+    color: #ffffff;
+    padding: 2%;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.main-header {
+    display: grid;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.logo {
+    display: inline-grid;
+    width: 15%;
+    margin: 0 auto;
+    padding: 2rem;
+    position: absolute;
+    bottom: 85%;
+
+}
+
+h5{
+    font-size: 2rem;
+    color: #FEFEFE;
+}
+
+b {
+    color: #FF1133;
+}
+
+.socials{
+    display: grid;
+    width: 40%;
+    position: absolute;
+    left: 85%;
+    bottom: 90%;
+}
+    
+.links img{
+    width: 10%;
+    
+    
+}
+
+.main-paragraph {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .6rem;
+    letter-spacing: .5rem;
+}
+
+.trainers {
+    /* 
+    padding: 2%; */
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: #FEFEFE;
+
+}
+
+.trainer {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    padding-bottom: 0;
+    text-transform: uppercase;
+
+}
+.classes {
+    /* padding: 2%; */
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+.class {
+    border-right: 1px solid #FEFEFE;
+    color: #FEFEFE;
+    padding: 1rem;
+    display: grid;
+    margin: 1rem;
+    text-align: center;
+}
+
+.class-other {
+    color: #FEFEFE;
+    padding: 1rem;
+    display: grid;
+    margin: 1rem;
+    text-align: center;
+}
+
+.cards {
+
+    padding: 2%;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+.card {
+    background: #FF1133;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 3%;
+}
+
+.black-card {
+    background: #171D2B;
+}
+
